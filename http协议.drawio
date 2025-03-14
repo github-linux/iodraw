@@ -189,6 +189,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-75" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="619" width="570" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="908" y="287" width="356" height="371" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-65" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="908" y="673" width="357" height="116" as="geometry" />
+        </mxCell>
         <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-1" value="HTTP客户端" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="180" width="120" height="60" as="geometry" />
         </mxCell>
@@ -277,6 +286,183 @@
         </mxCell>
         <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-38" value="链路层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-39" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="906" y="237" width="40" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-40" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1221" y="234" width="40" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-41" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="892" y="192" width="54" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-42" value="服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="197" width="54" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="8Fj_e8VSMX3BYQ6a5OL4-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="927" y="315" as="sourcePoint" />
+            <mxPoint x="977" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-46" value="Client Hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1012" y="287" width="79" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-47" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="8Fj_e8VSMX3BYQ6a5OL4-40" target="8Fj_e8VSMX3BYQ6a5OL4-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1091" y="441" as="sourcePoint" />
+            <mxPoint x="1141" y="391" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1095" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-48" value="Server Hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="340" width="84" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-49" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1241" y="445" as="sourcePoint" />
+            <mxPoint x="926" y="445" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1095" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-50" value="&lt;span&gt;Certificate,&lt;/span&gt;&lt;div&gt;Server Key Exchange,&lt;/div&gt;&lt;div&gt;Server Hello Done&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="390" width="137" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="927" y="503" as="sourcePoint" />
+            <mxPoint x="1241" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-52" value="Client Key Exchange" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1003" y="474" width="129" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="927" y="550" as="sourcePoint" />
+            <mxPoint x="1241" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-54" value="Change Cipher Spc,&lt;div&gt;Encrypted Handshake Message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="967" y="510" width="188" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-55" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1241" y="635" as="sourcePoint" />
+            <mxPoint x="926" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1095" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-58" value="握手流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="467" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="927" y="707" as="sourcePoint" />
+            <mxPoint x="1241" y="707" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-60" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1241" y="756" as="sourcePoint" />
+            <mxPoint x="926" y="756" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1095" y="756" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-61" value="Application Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="681" width="105" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-62" value="Application Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1014" y="730" width="105" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-64" value="数据传输" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="716" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-68" value="New Session Ticket,&lt;div&gt;Change Cipher Spec,&lt;/div&gt;&lt;div&gt;Encrypted Handshake Message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="581" width="188" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-70" value="HandShake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="114" y="634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-71" value="Change Cipher Spec" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="254" y="634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-72" value="Application Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="393" y="634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-73" value="Alert" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="533" y="634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-74" value="TLS Record Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="114" y="707" width="540" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-76" value="TLS 1.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1021.5" y="166" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-79" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="1779" y="241" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-80" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;strokeColor=light-dark(#0050EF,#66B2FF);" vertex="1" parent="1">
+          <mxGeometry x="2094" y="238" width="40" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-81" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="196" width="54" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-82" value="服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="201" width="54" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-83" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="8Fj_e8VSMX3BYQ6a5OL4-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1800" y="319" as="sourcePoint" />
+            <mxPoint x="1850" y="269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-84" value="Client Hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1885" y="291" width="79" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-87" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;strokeColor=light-dark(#0050EF,#66B2FF);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2112" y="409.5" as="sourcePoint" />
+            <mxPoint x="1797" y="409.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1966" y="409.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-88" value="Server Hello,&lt;div&gt;Change Cipher Spec,&lt;/div&gt;&lt;div&gt;Encrypted Hanshake Message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1858" y="347.5" width="181" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1796" y="493" as="sourcePoint" />
+            <mxPoint x="2110" y="493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-92" value="Change Cipher Spc,&lt;div&gt;Encrypted Handshake Message,&lt;/div&gt;&lt;div&gt;Application Data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1853" y="435" width="191" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-96" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;strokeColor=light-dark(#0050EF,#66B2FF);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2114" y="556" as="sourcePoint" />
+            <mxPoint x="1799" y="556" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1968" y="556" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-98" value="Application Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1891" y="530" width="105" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Fj_e8VSMX3BYQ6a5OL4-101" value="TLS 1.3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1894.5" y="170" width="60" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
